@@ -1,0 +1,30 @@
+.Squares-wrapper {
+    display:flex;
+    justify-content:center;
+}
+
+.Squares-wrapper > .Squares {
+    width:1000px;
+}
+
+.Squares-wrapper > .Squares > .Square {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    margin-top:-4px;
+}
+
+.Square > .img-wrapper img{
+    width:100%;
+    height:500px;
+    object-fit:cover;
+}
+.Square > .Square-text-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding:42px;
+}
+.Square > .Square-text-wrapper h1 {
+    color:#cea135;
+}
