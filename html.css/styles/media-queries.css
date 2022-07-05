@@ -71,4 +71,25 @@
     grid-template-columns: 1fr !important;
 }
 
+.Square > .Square-text-wrapper{
+    order: 1;
+}
+.Square > .img-wrapper{
+    order: 2;
+}
+
+.contact-grid-wrapper{
+    width:100%;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+}
+.form-input {
+    padding: 1.5rem 0rem;
+}
+
+
+.form textarea {
+    padding: 1.5rem 0rem;
+}
+
 }
